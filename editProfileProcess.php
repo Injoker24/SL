@@ -7,7 +7,7 @@
 
     if (isset($_POST['edit'])) 
     {   
-        $str_query3 = 'update user set ';
+        $str_query3 = 'UPDATE user SET ';
         $str_query3 .= 'namaDepan = "'.$_POST['nama-depan'].'", ';
         $str_query3 .= 'namaTengah = "'.$_POST['nama-tengah'].'", ';
         $str_query3 .= 'namaBelakang = "'.$_POST['nama-belakang'].'", ';
@@ -80,7 +80,7 @@
             }
 
             $str_query3 .= 'WHERE username = "'.$_SESSION['loggedin'].'"';
-            
+
             if(mysqli_query($connection, $str_query3)) 
             {
                 header('Location: profile.php');

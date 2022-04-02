@@ -87,7 +87,7 @@
             $_SESSION['foto-profil'] = $fileName;
             $_SESSION['registered'] = true;
 
-            $str_query = 'insert into user values("'
+            $str_query = 'INSERT INTO user VALUES("'
                             .$username.
                             '","'
                             .$pass2.

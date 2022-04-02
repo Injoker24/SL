@@ -5,7 +5,7 @@ include('config/config.php');
 if (isset($_POST['login'])) 
 {
     $_SESSION['login-warn'] = '';
-    $str_query = 'select username, password from user where username = "'.$_POST['username-login'].'"';
+    $str_query = 'SELECT username, password FROM user WHERE username = "'.$_POST['username-login'].'"';
     $query = mysqli_query($connection, $str_query);
     $row = mysqli_fetch_array($query);
 

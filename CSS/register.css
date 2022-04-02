@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+body {
+    background-color: #121212;
+    margin: 0%;
+    font-family: Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-container {
+    width: 30%;
+    background-color: #6200EE;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    color: azure;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    padding: 4rem;
+}
+
+.input-container {
+    margin-left: 30px;
+}
+
+.input-title {
+    color:azure;
+}
+
+.input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.input-box {
+    width: 400px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: azure;
+    height: 30px;
+}
+
+.alamat {
+    width: 400px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: azure;
+    height: 60px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.back {
+    width: 130px;
+    height: 60px;
+    border: 2px solid azure;
+    padding: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back:hover {
+    border-color: #6200EE;
+}
+
+.register {
+    width: 130px;
+    height: 60px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    background-color:azure;
+    color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register:hover {
+    background-color: #6200EE;
+    color: azure;
+}
+
+.warning {
+    color: #6200EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}

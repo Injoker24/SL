@@ -1,0 +1,88 @@
+body {
+    background-color: #121212;
+    margin: 0%;
+    font-family: Helvetica, sans-serif;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    font-size: 48px;
+    color: azure;
+    width: 50rem;
+    background-color: #6200EE;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 48px;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.button-container {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+    width: 40rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login {
+    width: 200px;
+    height: 60px;
+    background-color: azure;
+    padding: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login:hover {
+    background-color: #6200EE;
+    color: azure;
+}
+
+.register {
+    width: 200px;
+    height: 60px;
+    border: 2px solid azure;
+    padding: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 24px;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register:hover {
+    border-color: #6200EE;
+}
+
+.notif {
+    color: azure;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
